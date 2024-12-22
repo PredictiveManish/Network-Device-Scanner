@@ -9,7 +9,7 @@ def scan_network(ip_range):
     devices = []
 
     for element in answered_list:
-        device_info = {"ip": element[1].prsc, "mac":element[1].hwsrc}
+        device_info = {"ip": element[1].psrc, "mac": element[1].hwsrc}
         devices.append(device_info)
     return devices
 
