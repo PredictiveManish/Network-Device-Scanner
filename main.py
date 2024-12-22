@@ -1,5 +1,5 @@
 import scapy.all as scapy
-
+from getmac import get_mac_address
 def scan_network(ip_range):
     arp_request = scapy.ARP(pdst=ip_range)
     broadcast = scapy.Ether(dst="ff:ff:ff:ff:ff:ff")
