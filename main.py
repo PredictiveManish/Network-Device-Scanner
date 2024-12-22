@@ -1,5 +1,5 @@
 import scapy.all as scapy
-from mac_vendor_lookup import MacLookup  # Corrected import
+from mac_vendor_lookup import MacLookup 
 from getmac import get_mac_address
 
 def scan_network(ip_range):
