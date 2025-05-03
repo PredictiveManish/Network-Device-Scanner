@@ -28,3 +28,35 @@ Install the required Python libraries using the provided `requirements.txt`:
 
 ```bash
 pip install -r requirements.txt
+```
+
+# How to Use:
+```
+git clone https://github.com/yourusername/network-scanner.git
+cd network-scanner
+```
+Step 2: Install Dependencies
+```
+pip install -r requirements.txt
+```
+Step 3: Run the Script
+```
+sudo python scanner.py
+```
+### Make sure to replace the ```ip_range``` in the script with your subnet, for example:
+```
+ip_range = "192.168.1.1/24"
+```
+
+
+------------------------------------------------------------------------------------------
+
+
+# Sample Output:
+```
+IP Address           MAC Address                 Manufacturer
+------------------------------------------------------------
+192.168.1.2          A4:5E:60:XX:XX:XX           Apple, Inc.
+192.168.1.10         B8:27:EB:XX:XX:XX           Raspberry Pi Foundation
+...
+```
