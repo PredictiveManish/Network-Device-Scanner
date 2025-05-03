@@ -60,3 +60,14 @@ IP Address           MAC Address                 Manufacturer
 192.168.1.10         B8:27:EB:XX:XX:XX           Raspberry Pi Foundation
 ...
 ```
+
+
+
+# Disclaimer:
+- This tool is intended for educational purposes only.
+- Only scan networks you own or have explicit permission to access.
+- Unauthorized scanning may be illegal in some regions.
+
+# Author:
+Github: [Manish Tiwari](https://github.com/PredictiveManish)
+
